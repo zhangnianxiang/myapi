@@ -1,191 +1,133 @@
+const LocalData = {
+    isShowContact: true, //是否显示联系方式
+    evaluate: '（1）满腔热血的自学Android开发；\n（2）热衷于折腾Android刷机，尝鲜不同的ROM、APK；\n（3）「得到」中度中毒患者；\n（4）关注互联网、Android的最新动态，保持阅读；',
+
+    workList: [ //工作经验
+        {
+            title: '妮东科技（2016.01 ~ 2018.02）',
+            projectList: [
+                {
+                    projectName: '海外集成SDK',
+                    duty: '独立设计',
+                    info: '设计并实现海外集成SDK的工具，封装所需的参数，可拓展，打包成AAR，CP开发商可实现8分钟快速接入并发布Google Play，App Store',
+                    skill: ''
+                },
+                {
+                    projectName: 'Android游戏更新维护',
+                    duty: '独立负责国内50+渠道，海外5个地区的发布、更新维护；',
+                    info: '（1）[工作]负责公司FPS手游的sdk接入；\n(2)[积累]独自负责国内的50+渠道发布与更新维护，致力于优化，至兼容国内95%的Android手机，保证游戏的正常运行。熟悉游戏上架，版本强更，游戏热更流程。三次重写代码框架，保证游戏在海外60+个国家地区快速铺开计划中顺利进行。\n（3）[进阶]熟练Google全家桶、Facebook接入，Play市场的上线流程、市推荐要求，熟悉后台的综合运用，实现资源最大化实用。\n（4）[总结]在上述经验的基础上，研究设计了一套SDK接入框架，可以实现『一次接入，处处打包』，运营人员零基础打包。包含SDK抽象层，管理后台，打包脚本。\n（5）[管理]负责新人的面试及培训，带领其3天融入团队接手5个项目，快速投入生产。\n（6）[项目盈利情况]越南版本上线后，日充值达5亿，达百万级用户量。',
+                    skill: 'AS / Gradle / Anysdk'
+                },
 {
-    "isShowContact": true,
-    "workList": [
-        {
-            "title": "倍通健康（2017年9月~至今）",
-            "projectList": [
-                {
-                    "projectName": "内部流程项目",
-                    "duty": "整理优化并重写项目代码（ES6）",
-                    "info": "内部流程项目。",
-                    "skill": "Java,Vue"
-                },
-                {
-                    "projectName": "某医疗社区（公众号）",
-                    "duty": "前台架构，PC端前端业务代码",
-                    "info": "维系医院、医生、护士、病友的社区。",
-                    "skill": "Java,Vue,ES6,Webpack"
+                    projectName: '海外游戏点卡充值支付平台 APP"',
+                    duty: '独立开发',
+                    info: '负责Android的设计和功能实现，基于JNI与web交互,使用zxing；',
+                    skill: 'AS / JNI / Zxing'
                 }
-            ]
+            ],
         },
         {
-            "title": "东软集团（2016年3月~2017月09月）",
-            "projectList": [
+            title: '蓝海科技（2015.05 ~ 2016-01）',
+            projectList: [
                 {
-                    "projectName": "上海福利彩票即开票系统",
-                    "duty": "前台架构，组件二次封装，封装自有UI库",
-                    "info": "彩票行业，本系统囊括即开票（刮刮乐）的整个生命周期，主要包含：创建、印刷、分发、调拨、兑奖、销毁等。",
-                    "skill": "Java,Jquery,Pjax"
-                },
-                {
-                    "projectName": "蓝熙健康、绿城健康社区",
-                    "duty": "前台架构，组件二次封装，与客户协调和沟通需求，细化需求，并抽离需求给相关开发人员",
-                    "info": "医疗行业，使用相关检测设备（血糖仪，血压仪等）检测之后上传到云端，再推送到设备的关注者，让关注者实时了解使用的数据。以此衍生附属功能，比如月度报表、分析数据并给出改善病情的建议、专属家庭医生和健康管理师实时解答相关问题等功能。",
-                    "skill": "Java,Jquery,Pjax"
-                },
-                {
-                    "projectName": "彩票O2O项目",
-                    "info": "通过Cordova和相关Plugin来封装成IOS和Android的APP,并实现门店端和用户端整个前端页面逻辑 ",
-                    "duty": "调研需求，前台架构，组件二次封装，后期的维护",
-                    "skill": "Cordova,Java,Jquery,Pjax"
-                }
-            ]
+                    projectName: '【帮邦行】正规网约出行平台',
+                    duty: '项目核心技术主管',
+                    info: ' 1）负责内容：定制车载设备的安卓司机客户端开发，参与项目的完整孵化，从项目构思到上线运营、带领其他4个成员完成的乘客端开发，分配跟进组员开发进度，从最初的需求设计、技术实现方案讨论，一个月内推出beta版本，采用敏捷开发方式进行快速版本迭代。3个月内实现帮邦行从厦门发展到全国40多个地区落地运营。\n（2）担任角色：项目核心技术主管\n（3）项目技术战略构思：技术上做技术实现方案设计，把关技术实现成本和方案可行性。在当时智能语音还不完善的情况下，率先提出语音实现司机端订单播报功能；版本快速的迭代中，在面临着并发访问暴增，代码量暴增的问题，通过多次重构，引用更完善的框架解决问题。\n（4）技术难点：\n_a．实现多点导航最短路径规划，实现多点拼单、乘客接送最优路径规划。对并发的订单需要采用多维度智能计算方式，筛选同一时间段下乘车地点最相近的多位乘客进行路径规划，智能安排接送乘客的先后顺序，以及根据乘客下车地点分析行驶最短路径。比滴滴打车更早实现拼车功能，并且除了拼车功能外同时实现了车子附加送快递的功能，在拼车的基础上另外需要计算人件同车的最优路径。\n_b.app恢复，闪退后可自动重启恢复至闪退前的页面。\n_c.拦截通话界面，显示订单信息。\n(5)取得的成果：1.0版本上线后每日2000+单，节假日5000+单，日收益约175000元，较之前人工派单量增加10倍左右。获得A、B轮千万融资。',
+                    skill: '地图、导航、自定义通话界面'
+                } 
+                 
+            ],
         },
         {
-            "title": "大连楼兰（2015年5月~2016年3月）",
-            "projectList": [
+            title: '天语互联（2012.06 ~ 2015.05）',
+            projectList: [
                 {
-                    "projectName": "公司内部微信服务号",
-                    "duty": "Demo原型编写，前端业务代码",
-                    "info": "公司内部流程",
-                    "skill": "Java,Jquery"
+                    projectName: '公司内部微信服务号',
+                    duty: 'Demo原型编写，前端业务代码',
+                    info: '公司内部流程',
+                    skill: 'Java,Jquery'
                 },
                 {
-                    "projectName": "内部项目",
-                    "duty": "优化之前老代码，提升代码的可阅读性，并已插件的形式支持各个模块",
-                    "info": "内部流程项目，主要是维护代码",
-                    "skill": "Java,Jquery"
-                },
-                {
-                    "projectName": "预言性项目（PICC合作）",
-                    "duty": "复用之前的插件来开发，前端开发，前端简单架构",
-                    "info": "此项目是预言性项目，公司和保险公司合作，监控车辆详细数据，并生成第二年的保单。",
-                    "skill": "Java,Jquery"
+                    projectName: '内部项目',
+                    duty: '优化之前老代码，提升代码的可阅读性，并已插件的形式支持各个模块',
+                    info: '内部流程项目，主要是维护代码',
+                    skill: 'Java,Jquery'
                 }
-            ]
+            ],
         },
         {
-            "title": "博彦科技（2014年3月~2015年5月）",
-            "projectList": [
+            title: '天语互联（2012.06 ~ 2015.05）',
+            projectList: [
                 {
-                    "projectName": "外派IBM",
-                    "duty": "前端业务代码",
-                    "info": "内部孵化项目，通过WorkLight来Hybrid开发想法池的需求",
-                    "skill": "Cordova,Java,Jquery"
-                }
-            ]
-        },
-        {
-            "title": "中软国际（2013年3月~2014年3月）",
-            "projectList": [
-                {
-                    "projectName": "中信证劵对外服务平台",
-                    "duty": "按模块开发（前后端）",
-                    "info": "本项目是为各个劵商提供信息和咨询的分析上传和下载，通过客户端来自动分发信息。",
-                    "skill": "Flex,Java"
+                    projectName: '【兜兜公交】公交实时查询app',
+                    duty: '主要研发',
+                    info: ' （1）负责【兜兜公交】的客户端从最初到4.0版本的架构设计及版本开发，并带领3个新人做兜兜公交的版本迭代，实现兜兜公交跨地域跨领域对接，完成了36个城市的公交实时查询，并对接了定制班车、程掌召车等平台，在1年内获得了50万活跃用户，成为公交 查询APP领域创先品牌。\n（2）项目技术战略构思：在公交查询APP正在兴起的时期，app不应该只作为一个查询工具，在当时提出APP应该结合上班人群需求，拓展其他功能，有选择的对接对应的广告商引入流量，例如“饿了么”这一类的点餐平台。为了降低开发成本，在后台接口完成设计前，采用模拟式Demo方式进行APP演示,帮助项目需求在更清楚。\n（3）担任角色：兜兜公交项目核心技术.\n（4）取得的成果：成功获得百万级用户，成功吸引北大千方对公司做技术收购。\n其他项目：\n _a.拇指玩（电商APP）;\n _b.各地定制公交;\n _c.好吃吧（电商APP）;\n _d.漳州打车APP（后面衍生为帮邦行）;\n _e.厦门信息港联合开发的程掌召车；',
+                    skill: 'imageloader、butterknife、地图、自定义控件'
                 },
-                {
-                    "projectName": "英大财险微信公众平台",
-                    "duty": "前端业务代码",
-                    "info": "本项目通过通过微信关注英大财险公众平台来投保车险等。",
-                    "skill": "JqueryMobile,Jquery,Java"
-                }
-            ]
+ {
+                    projectName: '【厦门公共自行车查询】app',
+                    duty: '独立设计并研发',
+                    info: '（1）项目简介：自主研发的公益查询APP；\n（2）负责内容：负责公共自行车查询工具从无到有的设计及开发；\n（3）项目技术战略构思：由之前的项目经验产生的灵感，利用业余时间（约一个周末）完成的一款公益类的自行车查询APP。当年共享单车还未问世，领先共享单车做的一款自行车点查询APP，由于政府做公共自行车没合理运用数据资源完成互联网化的推广，造成自行车调度不合理，大家借车难的痛点，为解决这个痛点，自主开发了这个APP，可让大家在手机上及时了解自行车点以及每个点位的借还情况。\n（4）担任角色：主开发；\n（5）.技术难点：当时无法获得公共自行车的借还数据，通过抓取政府网页版的接口数据，获取数据资源；同时也将这一接口漏洞无偿告知政府，帮助他们减少因技术缺陷引起的网络安全问题。6.取得的成果：上线后仅在小鱼网上做了一次推广，在厦门当地的日活跃量已上百，成为当时大家查询公共自行车的唯一工具。',
+                    skill: '地图、定位、数据挖掘'
+                },
+            ],
         }
     ],
-    "baseInfo": {
-        "enName": "Haze.Liu",
-        "title": "FE Engineer",
-        "nameAndSex": "刘心远 / 男",
-        "birthday": "1989/10/14",
-        "diplomaAndSchool": "本科 / 大连海洋大学计算机系",
-        "workAge": "5年",
-        "location": "大连",
-        "wantPosition": "前端工程师、全栈工程师",
-        "salary": "12.5K ~ 15K",
-        "mobilePhone": "13478670140",
-        "email": "liu19891014@163.com",
-        "wechatNo": "mc_fly",
-        "github": "@tenbamboo",
-        "githubUrl": "https://github.com/tenbamboo"
+    baseInfo: { //基础信息
+        "enName": "张年向",
+        "title": "6年开发经验",
+        "nameAndSex": "张年向 / 男",
+        "birthday": "1990/04/01", 
+        "diplomaAndSchool": "本科 / 江南大学",
+        "diplomaAndSchool2": "大专 / 厦门理工学院软件学院", 
+        "workAge": "6年",
+        "location": "福建-厦门",
+        "wantPosition": "Anddroid高级工程师|不仅限",
+        "salary": "20k",
+        "mobilePhone": "13799250031",
+        "email": "zhangnianxiang@gmail.com",
+        "wechatNo": "13799250031",
+        "github": "",
+        "githubUrl": ""
     },
-    "skillList": [
-        "Web开发：Java / NodeJs",
-        "Web框架：SSI / express",
-        "CSS框架：Bootstrap / PureCSS / SASS",
-        "JS框架：Jquery / AngularJS / Vue",
-        "构建工具：Webpack / Bower  / Grunt / NPM",
-        "Hybird开发：Cordova / Ionic",
-        "数据库相关：MySQL / Oracle / IndexedDB",
-        "版本管理：Svn / Git",
-        "测试：Selenium For Java / Junit",
-        "微信：公众号开发 / 小程序开发",
-        "图表工具：HighChars / EChars / D3"
+    skillList: [  //技能清单
+          "Android开发：AS / Eclipse",
+        "数据持久化：Sqlite / Realm /SP",
+        "协同：SVN / GIT",
+        "框架：RXjava / Butterknife ",
+        "图片：Imageloader",
+        "异常：bugly",
+        "微信：小程序"
     ],
-    "starList": [
-        {
-            "name": "JavaScript",
+    starList: [ //技能关键字start 1-5
+       {
+            "name": "AndroidStudio",
             "star": 4
         },
         {
-            "name": "Css3",
+            "name": "Eclipse",
             "star": 4
         },
         {
-            "name": "Html5",
+            "name": "WPS",
             "star": 4
         },
         {
-            "name": "Jquery",
+            "name": "SVN",
             "star": 4
         },
         {
-            "name": "Vue",
-            "star": 4
-        },
-        {
-            "name": "Bootstrap",
-            "star": 4
-        },
-        {
-            "name": "Cordova",
-            "star": 4
-        },
-        {
-            "name": "Git/SVN",
-            "star": 4
-        },
-        {
-            "name": "Charts",
-            "star": 4
-        },
-        {
-            "name": "Webpack",
+            "name": "GIT",
             "star": 3
         },
         {
-            "name": "AngularJS",
+            "name": "RxJava",
             "star": 3
         },
         {
-            "name": "Java",
+            "name": "小程序",
             "star": 3
-        },
-        {
-            "name": "NodeJs",
-            "star": 3
-        },
-        {
-            "name": "Ionic",
-            "star": 3
-        },
-        {
-            "name": "Mysql",
-            "star": 3
-        },
-        {
-            "name": "React",
-            "star": 2
         }
     ]
-}
+};
+module.exports = LocalData
