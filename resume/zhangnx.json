@@ -94,7 +94,7 @@
         }
     ],
     "baseInfo": {
-        "enName": "张年向",
+        "enName": "zhang_nian_xiang",
         "title": "6年开发经验",
         "nameAndSex": "张年向 / 男",
         "birthday": "1990/04/01", 
@@ -102,7 +102,7 @@
         "diplomaAndSchool2": "大专 / 厦门理工学院软件学院", 
         "workAge": "6年",
         "location": "福建-厦门",
-        "wantPosition": "Anddroid开发工程师",
+        "wantPosition": "Anddroid开发工程师|不仅限",
         "salary": "20k",
         "mobilePhone": "13799250031",
         "email": "zhangnianxiang@gmail.com",
@@ -113,82 +113,42 @@
    
     },
     "skillList": [
-        "Web开发：Java / NodeJs",
-        "Web框架：SSI / express",
-        "CSS框架：Bootstrap / PureCSS / SASS",
-        "JS框架：Jquery / AngularJS / Vue",
-        "构建工具：Webpack / Bower  / Grunt / NPM",
-        "Hybird开发：Cordova / Ionic",
-        "数据库相关：MySQL / Oracle / IndexedDB",
-        "版本管理：Svn / Git",
-        "测试：Selenium For Java / Junit",
-        "微信：公众号开发 / 小程序开发",
-        "图表工具：HighChars / EChars / D3"
+        "Android开发：AS / Eclipse",
+        "数据持久化：Sqlite / Realm /SP",
+        "协同：SVN / GIT",
+        "框架：RXjava / Butterknife ",
+        "图片：Imageloader",
+        "异常：bugly",
+        "微信：小程序"
     ],
     "starList": [
         {
-            "name": "JavaScript",
+            "name": "AndroidStudio",
             "star": 4
         },
         {
-            "name": "Css3",
+            "name": "Eclipse",
             "star": 4
         },
         {
-            "name": "Html5",
+            "name": "WPS",
             "star": 4
         },
         {
-            "name": "Jquery",
+            "name": "SVN",
             "star": 4
         },
         {
-            "name": "Vue",
-            "star": 4
-        },
-        {
-            "name": "Bootstrap",
-            "star": 4
-        },
-        {
-            "name": "Cordova",
-            "star": 4
-        },
-        {
-            "name": "Git/SVN",
-            "star": 4
-        },
-        {
-            "name": "Charts",
-            "star": 4
-        },
-        {
-            "name": "Webpack",
+            "name": "GIT",
             "star": 3
         },
         {
-            "name": "AngularJS",
+            "name": "RxJava",
             "star": 3
         },
         {
-            "name": "Java",
+            "name": "小程序",
             "star": 3
-        },
-        {
-            "name": "NodeJs",
-            "star": 3
-        },
-        {
-            "name": "Ionic",
-            "star": 3
-        },
-        {
-            "name": "Mysql",
-            "star": 3
-        },
-        {
-            "name": "React",
-            "star": 2
         }
     ]
 }
