@@ -108,7 +108,9 @@
         "email": "zhangnianxiang@gmail.com",
         "wechatNo": "13799250031",
         "github": "",
-        "githubUrl": ""
+        "githubUrl": "",
+        "head":"https://zhangnianxiang.github.io/myapi/resume/head2.jpg"
+   
     },
     "skillList": [
         "Web开发：Java / NodeJs",
